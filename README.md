@@ -28,10 +28,10 @@ Se usi **Colima**:
    docker compose up -d --build
 
 3. Accedi al progetto:
-   **PHP**: 
-      - http://127.0.0.1:8080
-   **phpMyAdmin**:
-      - http://127.0.0.1:8081
+   - **PHP**: 
+      http://127.0.0.1:8080
+   - **phpMyAdmin**:
+      http://127.0.0.1:8081
 
 ## Per modificare il db
    - Devi Aver avviato Docker
