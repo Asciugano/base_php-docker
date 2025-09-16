@@ -1,14 +1,19 @@
 <?php
-$host = "db";
-$user = "app_user";
-$pass = "app_pass";
-$db = "app_db";
-
-$conn = new mysqli($host, $user, $pass, $db);
-
-if ($conn->connect_error) {
-    die("Connessione fallita: " . $conn->connect_error);
-}
-
-echo "✅ Connessione a MySQL riuscita!";
+session_start();
+require_once 'config.php';
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <!-- <link href="css/style.css" rel="stylesheet"> -->
+</head>
+
+<body>
+</body>
+
+</html>
